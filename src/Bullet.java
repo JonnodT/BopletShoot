@@ -1,6 +1,8 @@
 import java.util.Random;
 
-/** 子弹 仅仅是个飞行物*/
+/** 
+Class for bullet
+*/
 
 public class Bullet extends FlyingObject{
 	private int speed = 3; 
@@ -9,8 +11,8 @@ public class Bullet extends FlyingObject{
 		image = ShootGame.bullet;
 		width = image.getWidth();
 		height = image.getHeight();
-		this.x = x; //子弹的x
-		this.y = y; //子弹的y
+		this.x = x; 
+		this.y = y;
 	}
 	
 	public void step(){

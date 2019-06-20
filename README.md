@@ -1,6 +1,6 @@
 # BopletShoot
 
-A plane shooting game written in Java.
+A plane shooting game written in Java swing.
 
 ## Usage
 

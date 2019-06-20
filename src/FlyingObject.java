@@ -1,7 +1,8 @@
-import java.awt.image.BufferedImage; //BufferedImage是专门的数据类型装图片的
+import java.awt.image.BufferedImage; 
 
-/** 飞行物类 */
-
+/** 
+Everything flying in the game should inherit this class
+*/
 public abstract class FlyingObject {
 	protected BufferedImage image;
 	protected int width;

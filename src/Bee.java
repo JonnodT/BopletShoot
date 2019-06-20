@@ -1,9 +1,10 @@
 import java.util.Random;
 
 public class Bee extends FlyingObject implements Award{
-	private int xSpeed = 1; //横着走的步数
-	private int ySpeed = 2; //纵着走的步数
-	private int awardType; //奖励类型 0 或 1 0代表奖励火力值 1代表奖励命
+	private int xSpeed = 1; //speed on the x-axis
+	private int ySpeed = 2; //speed on the y-axis
+	//0 reamns firepower bonus, and 1 means extra life. 
+	private int awardType; 
 	
 	
     public int getType(){

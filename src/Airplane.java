@@ -1,12 +1,17 @@
 import java.util.Random;
 
-/** 敌机 是飞行物也是敌人*/
+/**
+Class for enemy airplanes in the game
+*/
 public class Airplane extends FlyingObject implements Enemy{
 	
-	private int speed = 2; //走步步数
+	//How fast the plane moves on the screen 
+	private int speed = 2; 
 	
+
 	public int getScore(){
-		return 5; //打掉一个敌机5分
+		//Player gets 5 points for shooting down each enemy plane
+		return 5; 
 	}
 	
 	public Airplane(){

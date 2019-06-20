@@ -1,10 +1,13 @@
 
-/**奖励 */
 
+/**
+Class for awards. Only bees at this point.
+But can have more in the future
+*/
 public interface Award {
-	public int FIRE_POWER = 0; //火力值
-	public int LIFE = 1; //命
+	public int FIRE_POWER = 0; 
+	public int LIFE = 1;
 	
-	// 获取奖励类型 返回0为火力值 返回1为命
+	//return 0 reamns firepower bonus, and 1 means extra life. 
 	public int getType();
 }
