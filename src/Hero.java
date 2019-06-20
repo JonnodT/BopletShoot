@@ -1,4 +1,3 @@
-package com.tarena.shoot;
 import java.awt.image.BufferedImage;
 import java.util.Random;
 

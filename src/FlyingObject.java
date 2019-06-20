@@ -1,4 +1,3 @@
-package com.tarena.shoot;
 import java.awt.image.BufferedImage; //BufferedImage是专门的数据类型装图片的
 
 /** 飞行物类 */

@@ -1,5 +1,3 @@
-package com.tarena.shoot;
-
 import java.util.Random;
 
 public class Bee extends FlyingObject implements Award{

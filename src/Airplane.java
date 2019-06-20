@@ -1,5 +1,3 @@
-package com.tarena.shoot;
-
 import java.util.Random;
 
 /** 敌机 是飞行物也是敌人*/

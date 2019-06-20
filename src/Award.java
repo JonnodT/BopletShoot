@@ -1,4 +1,4 @@
-package com.tarena.shoot;
+
 /**奖励 */
 
 public interface Award {

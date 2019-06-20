@@ -1,4 +1,3 @@
-package com.tarena.shoot;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
@@ -13,6 +12,7 @@ import java.util.TimerTask;  //定时任务
 import java.util.Arrays;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
 
 //swing中的事件：
 //事件：发生了一件事
@@ -69,16 +69,17 @@ public class ShootGame extends JPanel{
 	
 	
 	static{  //初始化静态资源
+
 		try{
-			background = ImageIO.read(ShootGame.class.getResource("background.png"));
-			start = ImageIO.read(ShootGame.class.getResource("start.png"));
-			pause = ImageIO.read(ShootGame.class.getResource("pause.png"));
-			gameover = ImageIO.read(ShootGame.class.getResource("gameover.png"));
-			airplane = ImageIO.read(ShootGame.class.getResource("airplane.png"));
-			bee = ImageIO.read(ShootGame.class.getResource("bee.png"));
-			bullet = ImageIO.read(ShootGame.class.getResource("bullet.png"));
-			hero0 = ImageIO.read(ShootGame.class.getResource("hero0.png"));
-			hero1 = ImageIO.read(ShootGame.class.getResource("hero1.png"));
+			background = ImageIO.read(ShootGame.class.getResource("static/background.png"));
+			start = ImageIO.read(ShootGame.class.getResource("static/start.png"));
+			pause = ImageIO.read(ShootGame.class.getResource("static/pause.png"));
+			gameover = ImageIO.read(ShootGame.class.getResource("static/gameover.png"));
+			airplane = ImageIO.read(ShootGame.class.getResource("static/airplane.png"));
+			bee = ImageIO.read(ShootGame.class.getResource("static/bee.png"));
+			bullet = ImageIO.read(ShootGame.class.getResource("static/bullet.png"));
+			hero0 = ImageIO.read(ShootGame.class.getResource("static/hero0.png"));
+			hero1 = ImageIO.read(ShootGame.class.getResource("static/hero1.png"));
 			
 		}catch(Exception e){
 			e.printStackTrace();
