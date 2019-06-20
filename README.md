@@ -4,7 +4,7 @@ A plane shooting game written in Java swing.
 
 ## Usage
 
-- Compile the code
+- Compile the code (Only do this once)
 
 `cd src`
 

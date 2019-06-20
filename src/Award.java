@@ -1,5 +1,3 @@
-
-
 /**
 Class for awards. Only bees at this point.
 But can have more in the future
